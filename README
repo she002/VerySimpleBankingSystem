@@ -1,0 +1,18 @@
+In SQL Server side:
+
+ - please execute the p1_create.sql to create a table.
+
+In client side:
+
+ - Before execute the program, edit the db.properties first to set up
+the JDBC driver name and database url, username and password
+
+ - The GUI part is using javafx, so please use the java compiler
+with javafx library integrated to compile the files.
+
+ - The instructions to compile and run the program:
+
+	javac *.java
+	java -cp ":./db2jcc4.jar" ProgramLauncher ./db.properties > test1.out
+
+
